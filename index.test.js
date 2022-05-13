@@ -1,3 +1,4 @@
+const { TestWatcher } = require('jest')
 const {sequelize} = require('./db');
 const {Band, Musician} = require('./index')
 
